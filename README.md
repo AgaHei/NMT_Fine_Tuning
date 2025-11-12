@@ -4,11 +4,27 @@ A complete end-to-end Neural Machine Translation fine-tuning project that extrac
 
 ## 🎯 Project Overview
 
-This project demonstrates how to create a custom parallel corpus from bilingual PDF documents and use it to fine-tune a pre-trained translation model. Using Tony Attwood's "Asperger's Syndrome" book (English-French editions) as a case study, the workflow covers the entire pipeline from PDF extraction to model evaluation.
+This project demonstrates how to create a custom parallel corpus from bilingual PDF documents and use it to fine-tune a pre-trained translation model. Using Tony Attwood's book on Asperger's Syndrome (English-French editions) as a case study, the workflow covers the entire pipeline from PDF extraction to model evaluation.
 
 **Use Case**: Literary/technical document translation with domain-specific terminology  
 **Language Pair**: English → French  
 **Base Model**: MarianMT (Helsinki-NLP)
+
+### 📖 Source Material Citation
+
+**English Original:**
+- **Title**: *The Complete Guide to Asperger's Syndrome*
+- **Author**: Tony Attwood
+- **Publisher**: Jessica Kingsley Publishers, London and Philadelphia
+
+**French Translation:**
+- **Title**: *Le syndrome d'Asperger - Guide complet* (3e édition)
+- **Author**: Tony Attwood
+- **Translation**: Josef Schovanec
+- **Scientific Revision**: Elaine Hardiman-Taveau and Cécile Veasna Malterre
+- **Publisher**: Groupe De Boeck s.a., Brussels, Belgium (2010)
+
+> **Note**: These copyrighted works are used solely for educational purposes in machine translation research. The source PDFs are not included in this repository. Users must obtain legal copies to reproduce this work.
 
 ## 🗂️ Project Structure
 
@@ -210,9 +226,19 @@ This project teaches:
 
 ## ⚠️ Important Notes
 
+### Source Material & Copyright
+This project uses copyrighted bilingual texts for educational purposes in machine translation research. Full citations are provided in the "Project Overview" section above.
+
+**Important:**
+- The source PDFs are **not included** in this repository
+- Users must obtain **legal copies** of the books to reproduce this work
+- This project demonstrates the **technical pipeline** for NMT fine-tuning
+- The extracted text and aligned corpus are **not distributed**
+- Any use of the source material must comply with copyright laws
+
 ### Data Not Included
 The source PDF files and generated data folders are not included in this repository due to:
-- **Copyright**: The books are copyrighted material
+- **Copyright**: The books are copyrighted material by their respective publishers
 - **File size**: PDFs and generated data can be large
 - **Privacy**: You may use your own proprietary documents
 
